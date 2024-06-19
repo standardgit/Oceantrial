@@ -1,0 +1,65 @@
+.hero {
+    background-image: url('/images/Clean1.png');
+    background-size: cover;
+    height: 90vh;
+}
+
+.heading-main {
+    font-size: clamp(1rem, 8vw, 3rem);
+    font-family: Prompt;
+    font-weight: 800;
+}
+
+.heading-small {
+    font-size: clamp(.125rem, 3vw, 1rem);
+}
+
+.one {
+    top: 18%;
+    left: 15%;
+}
+
+.two {
+    top: 47%;
+    right: 14%;
+}
+
+.three {
+    top: 40%;
+    left: 25%;
+}
+
+.four {
+    top: 10%;
+    right: 20%;
+}
+
+.five {
+    left: 5%;
+    bottom: -25%;
+}
+
+.bottom-40 {
+    bottom: 40px;
+}
+
+.intro-vid {
+    height: 8rem;
+}
+
+.about-img {
+    width: clamp(250px, 35vw, 400px)
+}
+
+.service-image {
+    width: 6rem;
+}
+
+.s-width {
+    font-size: clamp(.125rem, 4vw, .925rem);
+    width: 18rem;
+}
+
+.pricing-desc {
+    font-size: clamp(.5rem, 3vw, 1.125rem) !important;
+}
